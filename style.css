@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 4px solid #222;
+    border-top: 0;
+    border-bottom: 0;
+    background-color: #fff;
+    color: #f64d4d;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+#title {
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#meme {
+    margin-bottom: 20px;
+}
+
+.author{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+@media(min-width:600px){
+    #title{
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    .author{
+        font-size: 16px;
+    }
+}
